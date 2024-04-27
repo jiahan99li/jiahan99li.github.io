@@ -74,6 +74,7 @@
     width: 60%;
     object-fit: contain;
     margin-bottom: 10%;
+    transition: 0.5s;
 }
 
 .socialsContainer img:hover {
@@ -94,7 +95,7 @@
 
 @keyframes slideInFromTopHome {
     0% {
-        opacity: 20%;
+        opacity: 0%;
         transform: translateY(-100%);
     }
 
@@ -106,7 +107,7 @@
 
 @keyframes slideInFromTopSlightHome {
     0% {
-        opacity: 20%;
+        opacity: 0%;
         transform: translateY(-50%);
     }
 
