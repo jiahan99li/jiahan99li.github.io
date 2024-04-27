@@ -1,9 +1,20 @@
 import './Home.css';
+import { useNavigate } from 'react-router-dom';
+import instagram from '../../assets/instagram.png'
+import github from '../../assets/github.png'
+import linkedin from '../../assets/linkedin.png'
 
 function Home() {
+
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = `https://www.google.com`;
+    navigate(path);
+  }
+
   return (
     <div className="Home">
-      <h1>Hey!I'm Vinny</h1>
+      <h1>Hey!I'm Jiahan</h1>
       <h2>Software Developer & Salesforce Developer</h2>
       <div className="homeDescription">
         <div className='descriptionLeft'>
@@ -14,7 +25,18 @@ function Home() {
         </div>
       </div>
       <div className='homeSocials'>
-
+        <a className='socialsContainer' href='https://www.google.com'>
+          <img src={instagram}></img>
+          <p>Instagram</p>
+        </a>
+        <a className='socialsContainer' href='https://github.com/jiahan99li'>
+          <img src={github}></img>
+          <p>GitHub</p>
+        </a>
+        <a className='socialsContainer' href='https://www.google.com'>
+          <img src={linkedin}></img>
+          <p>Linkedin</p>
+        </a>
       </div>
     </div>
   );
