@@ -58,6 +58,10 @@
     width: 100%;
 }
 
+.skillsContainer p {
+    font-size: 1cqw;
+}
+
 .skillsContainer h1 {
     margin-top: 2.5%;
     margin-left: 3cqw;
