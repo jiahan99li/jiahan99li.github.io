@@ -5,6 +5,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: 1s ease-in 0s 1 slideInFromTop;
 }
 
 .active {}
@@ -33,4 +34,14 @@ nav ul li .navigation {
 nav ul li .navigation:hover {
     background-color: rgba(255, 255, 255, 0.217);
     border-radius: 20px;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
