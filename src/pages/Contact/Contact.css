@@ -1,0 +1,45 @@
+.Contact {
+    width: 80%;
+    margin: 8vh auto 5vh auto;
+    font-family: 'futura';
+}
+
+.Contact h1 {
+    font-size: 3cqw;
+    margin-top: 3cqh;
+    margin-bottom: 0px;
+    text-align: center;
+    animation: 1.2s ease-in 0s 1 slideInFromTopSlightContact;
+}
+
+.Contact h3 {
+    text-align: center;
+    font-size: 1cqw;
+    margin-top: 0.5cqh;
+    font-weight: 200;
+    animation: 1.4s ease-in 0s 1 slideInFromTopContact;
+}
+
+@keyframes slideInFromTopSlightContact {
+    0% {
+        opacity: 0%;
+        transform: translateY(-30%);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideInFromTopContact {
+    0% {
+        opacity: 0%;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0%);
+    }
+}

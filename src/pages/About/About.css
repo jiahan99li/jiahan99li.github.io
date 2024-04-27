@@ -73,7 +73,7 @@
     width: 100%;
     margin-left: 3cqw;
     height: 3.5cqh;
-    background-color: rgba(255, 255, 255, 0.769);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 30px;
     animation: 1.6s ease-in 0s 1 levelUp100;
     display: flex;
@@ -88,7 +88,7 @@
     width: 80%;
     margin-left: 3cqw;
     height: 3.5cqh;
-    background-color: rgba(255, 255, 255, 0.769);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 30px;
     animation: 1.6s ease-in 0s 1 levelUp80;
     display: flex;
@@ -103,7 +103,7 @@
     width: 60%;
     margin-left: 3cqw;
     height: 3.5cqh;
-    background-color: rgba(255, 255, 255, 0.769);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 30px;
     animation: 1.6s ease-in 0s 1 levelUp60;
     display: flex;
@@ -118,7 +118,7 @@
     width: 20%;
     margin-left: 3cqw;
     height: 3.5cqh;
-    background-color: rgba(255, 255, 255, 0.769);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 30px;
     animation: 1.6s ease-in 0s 1 levelUp20;
     display: flex;
