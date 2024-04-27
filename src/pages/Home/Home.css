@@ -1,0 +1,21 @@
+.Home {
+    width: 50%;
+    padding: 8vh 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7cqw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    margin-left: 3cqw;
+    font-size: 1.5cqw;
+    margin-top: 0px;
+    padding-top: 0px;
+}
