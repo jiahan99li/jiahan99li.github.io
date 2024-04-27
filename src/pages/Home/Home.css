@@ -11,7 +11,7 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
     letter-spacing: -1px;
-    animation: 1.2s ease-in 0s 1 slideInFromTopSlight;
+    animation: 1.2s ease-in 0s 1 slideInFromTopSlightHome;
 }
 
 .Home h2 {
@@ -21,7 +21,7 @@
     padding-top: 0px;
     margin-bottom: 6%;
     font-family: 'futura';
-    animation: 1.4s ease-in 0s 1 slideInFromTop;
+    animation: 1.4s ease-in 0s 1 slideInFromTopHome;
 }
 
 .homeDescription {
@@ -32,7 +32,7 @@
     font-size: 1cqw;
     font-weight: 200;
     font-family: 'futura';
-    animation: 1.6s ease-in 0s 1 slideInFromTop;
+    animation: 1.6s ease-in 0s 1 slideInFromTopHome;
 }
 
 .descriptionLeft {
@@ -59,7 +59,7 @@
     font-size: 1cqw;
     font-weight: 200;
     font-family: 'futura';
-    animation: 1.8s ease-in 0s 1 slideInFromTop;
+    animation: 1.8s ease-in 0s 1 slideInFromTopHome;
 }
 
 .socialsContainer {
@@ -92,7 +92,7 @@
                               'embedded-opentype', and 'svg' */
 }
 
-@keyframes slideInFromTop {
+@keyframes slideInFromTopHome {
     0% {
         opacity: 20%;
         transform: translateY(-100%);
@@ -104,7 +104,7 @@
     }
 }
 
-@keyframes slideInFromTopSlight {
+@keyframes slideInFromTopSlightHome {
     0% {
         opacity: 20%;
         transform: translateY(-50%);
