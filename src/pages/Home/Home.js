@@ -1,16 +1,9 @@
 import './Home.css';
-import { useNavigate } from 'react-router-dom';
 import instagram from '../../assets/instagram.png'
 import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 
 function Home() {
-
-  let navigate = useNavigate();
-  const routeChange = () => {
-    let path = `https://www.google.com`;
-    navigate(path);
-  }
 
   return (
     <div className="Home">
@@ -25,16 +18,16 @@ function Home() {
         </div>
       </div>
       <div className='homeSocials'>
-        <a className='socialsContainer' href='https://www.google.com'>
-          <img src={instagram}></img>
+        <a className='socialsContainer' href='https://www.instagram.com/vinnylijiang/'>
+          <img src={instagram} alt='Instagram'></img>
           <p>Instagram</p>
         </a>
         <a className='socialsContainer' href='https://github.com/jiahan99li'>
-          <img src={github}></img>
+          <img src={github} alt='GitHub'></img>
           <p>GitHub</p>
         </a>
-        <a className='socialsContainer' href='https://www.google.com'>
-          <img src={linkedin}></img>
+        <a className='socialsContainer' href='https://www.linkedin.com/in/jiahan-li-jiang-304b23179/'>
+          <img src={linkedin} alt='Linkedin'></img>
           <p>Linkedin</p>
         </a>
       </div>

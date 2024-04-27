@@ -1,0 +1,21 @@
+.About {
+    width: 80%;
+    margin: 6vh auto;
+}
+
+.aboutIntro {
+    width: 100%;
+    background-color: rgb(203, 120, 13);
+    display: flex;
+}
+
+.introLeft {
+    background-color: wheat;
+    width: 25%;
+    height: 20px;
+}
+
+.introRight {
+    background-color: khaki;
+    width: 75%;
+}
