@@ -52,7 +52,7 @@ function About() {
           <p style={{ marginRight: '3.5cqh' }}>4★</p>
         </div>
         <div className='skillLevel80'>
-          <p style={{ marginLeft: '3.5cqh' }}>React JS</p>
+          <p style={{ marginLeft: '3.5cqh' }}>React</p>
           <p style={{ marginRight: '3.5cqh' }}>4★</p>
         </div>
         <div className='skillLevel80'>
@@ -71,8 +71,8 @@ function About() {
       <div className='moreAbout'>
         <h1>A little more about me...</h1>
         <p>
-          With the rapid advancements on AI and technologies as a whole. I am looking forward to learning and getting more certifications whether it's in Salesforce,
-          AI or anything related to development.
+          Passionate Software Engineer with 3+ years of experience in full-stack web and cross-platform mobile development, specializing in building scalable, user-focused applications. Prior to Deloitte, I worked as a Full-Stack Developer, architecting and deploying React-based web solutions that optimized performance and user engagement across diverse client projects. Beyond my professional work, I independently designed and developed additional mobile applications and multiple React websites for friends and family, refining my skills in end-to-end development, responsive design, and agile problem-solving. At Deloitte, I engineered critical features for a state health insurance marketplace Flutter app, collaborating with cross-functional teams to deliver seamless user experiences. Independently, I also designed, developed, and launched a social media app with Flutter, featuring real-time chat and custom UI animations.
+          <br /><br />Recognizing growing demand for Salesforce expertise within Deloitte projects, I rapidly upskilled, achieved certification, and successfully transitioned to contribute to critical Salesforce implementations—demonstrating strong adaptability and a commitment to accelerated learning.
         </p>
       </div>
     </div>

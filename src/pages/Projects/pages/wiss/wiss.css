@@ -41,24 +41,27 @@
 }
 
 #wiss-one {
-    /* background-image: url(../../../assets/pages/fuyao/fuyaoone.png); */
+    background-image: url(../../../../assets/projects/screenshots/wiss1.png);
     background-color: rgba(0, 0, 0, 0.163);
     background-blend-mode: darken;
     background-size: cover;
+    background-position-y: -2.2vw;
 }
 
 #wiss-two {
-    /* background-image: url(../../../assets/pages/fuyao/fuyaotwo.png); */
+    background-image: url(../../../../assets/projects/screenshots/wiss2.png);
     background-color: rgba(0, 0, 0, 0.163);
     background-blend-mode: darken;
     background-size: cover;
+    background-position-y: -2.2vw;
 }
 
 #wiss-three {
-    /* background-image: url(../../../assets/pages/fuyao/fuyaothree.png); */
+    background-image: url(../../../../assets/projects/screenshots/wiss3.png);
     background-color: rgba(0, 0, 0, 0.163);
     background-blend-mode: darken;
     background-size: cover;
+    background-position-y: -2.2vw;
 }
 
 .wiss-text {
@@ -67,16 +70,19 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    text-align: center;
 }
 
 .wiss-text p {
     font-size: 20px;
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
 .wiss-text p span {
     font-family: LatoLight;
     font-weight: 400;
+}
+
+.wiss-text p span a {
+    color: rgb(60, 141, 255);
 }

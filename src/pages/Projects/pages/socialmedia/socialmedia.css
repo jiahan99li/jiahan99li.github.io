@@ -41,24 +41,25 @@
 }
 
 #socialmedia-one {
-    /* background-image: url(../../../assets/pages/fuyao/fuyaoone.png); */
+    background-image: url(../../../../assets/projects/screenshots/social1.png);
     background-color: rgba(0, 0, 0, 0.163);
     background-blend-mode: darken;
     background-size: cover;
+    background-position-y: -10vw;
 }
 
 #socialmedia-two {
-    /* background-image: url(../../../assets/pages/fuyao/fuyaotwo.png); */
+    background-image: url(../../../../assets/projects/screenshots/social2.png);
     background-color: rgba(0, 0, 0, 0.163);
-    background-blend-mode: darken;
     background-size: cover;
+    background-position-y: -10vw;
 }
 
 #socialmedia-three {
-    /* background-image: url(../../../assets/pages/fuyao/fuyaothree.png); */
+    background-image: url(../../../../assets/projects/screenshots/social3.png);
     background-color: rgba(0, 0, 0, 0.163);
-    background-blend-mode: darken;
     background-size: cover;
+    background-position-y: -10vw;
 }
 
 .socialmedia-text {
@@ -67,16 +68,19 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    text-align: center;
 }
 
 .socialmedia-text p {
     font-size: 20px;
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
 .socialmedia-text p span {
     font-family: LatoLight;
     font-weight: 400;
+}
+
+.socialmedia-text p span a {
+    color: rgb(60, 141, 255);
 }
