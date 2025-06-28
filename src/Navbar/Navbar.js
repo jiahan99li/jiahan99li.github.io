@@ -4,12 +4,11 @@ import { Link, useResolvedPath, useMatch } from 'react-router-dom'
 function Navbar() {
   return (
     <div className="Navbar">
-      <nav>
-        <ul>
+      <nav className="flex justify-center items-center">
+        <ul className="flex justify-center items-center gap-4 bg-white/10 rounded-[30px] m-0 p-0">
           <CustomLink to="/">Home</CustomLink>
           <CustomLink to="/about">About</CustomLink>
           <CustomLink to="/projects">Projects</CustomLink>
-          <CustomLink to="/contact">Contact</CustomLink>
         </ul>
       </nav>
     </div>

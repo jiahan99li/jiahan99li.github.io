@@ -1,0 +1,82 @@
+.socialmedia-container {
+    width: 100%;
+    min-height: 95vh;
+    padding: 80px 0px 10px 0px;
+    border-radius: 0%;
+    margin-bottom: 30px;
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: local('LatoLight'), url(../../../../assets/lato/Lato-Regular.ttf) format('truetype');
+}
+
+.socialmedia-header {
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+    align-items: center;
+    background-color: #00000027;
+    margin-bottom: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.socialmedia-header h1 {
+    color: white;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.project-picture {
+    min-width: 300px;
+}
+
+#socialmedia-one {
+    /* background-image: url(../../../assets/pages/fuyao/fuyaoone.png); */
+    background-color: rgba(0, 0, 0, 0.163);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+#socialmedia-two {
+    /* background-image: url(../../../assets/pages/fuyao/fuyaotwo.png); */
+    background-color: rgba(0, 0, 0, 0.163);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+#socialmedia-three {
+    /* background-image: url(../../../assets/pages/fuyao/fuyaothree.png); */
+    background-color: rgba(0, 0, 0, 0.163);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.socialmedia-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.socialmedia-text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.socialmedia-text p span {
+    font-family: LatoLight;
+    font-weight: 400;
+}

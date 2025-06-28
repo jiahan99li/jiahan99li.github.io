@@ -54,6 +54,22 @@
     animation: 1.4s ease-in 0s 1 slideInFromTopSlightAbout;
 }
 
+.moreAbout {
+    width: 100%;
+}
+
+.moreAbout h1 {
+    margin-top: 2.5%;
+    margin-left: 3cqw;
+    font-size: 2cqw;
+    animation: 1.6s ease-in 0s 1 slideInFromTopAbout;
+}
+
+.moreAbout p {
+    font-size: 1cqw;
+    padding-left: 3cqw;
+}
+
 .skillsContainer {
     width: 100%;
 }
@@ -67,6 +83,10 @@
     margin-left: 3cqw;
     font-size: 2cqw;
     animation: 1.6s ease-in 0s 1 slideInFromTopAbout;
+}
+
+.skillsContainer p {
+    font-size: 1cqw;
 }
 
 .skillLevel100 {
@@ -129,7 +149,49 @@
     margin-bottom: 2cqh;
 }
 
-@keyframes slideInFromTopAbout {
+@media (max-width: 1180px) {
+    .introImageContainer {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 35px;
+    }
+
+    .introImageContainer img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 35px;
+    }
+
+    .introRight p {
+        font-size: 1.2cqw;
+    }
+
+    .moreAbout p {
+        font-size: 1.2cqw;
+    }
+}
+
+@media (max-width: 875px) {
+    .introRight h1 {
+        margin-top: 0cqh;
+    }
+
+    .introRight p {
+        font-size: 1.5cqw;
+    }
+
+    .moreAbout p {
+        font-size: 1.5cqw;
+    }
+
+    .skillsContainer p {
+        font-size: 1.5cqw;
+    }
+}
+
+/* @keyframes slideInFromTopAbout {
     0% {
         opacity: 0%;
         transform: translateY(-100%);
@@ -151,7 +213,7 @@
         opacity: 100%;
         transform: translateY(0%);
     }
-}
+} */
 
 @keyframes levelUp100 {
     0% {

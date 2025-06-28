@@ -16,7 +16,7 @@
 }
 
 .Home h2 {
-    margin-left: 3%;
+    margin-left: 7%;
     font-size: 1.5cqw;
     margin-top: 0px;
     padding-top: 0px;
@@ -39,7 +39,7 @@
 .descriptionLeft {
     width: 45%;
     display: inline-block;
-    padding-left: 3%;
+    padding-left: 7%;
     padding-right: 2%;
     vertical-align: top;
 }
@@ -76,6 +76,7 @@
     object-fit: contain;
     margin-bottom: 10%;
     transition: 0.5s;
+    margin-left: 20%;
 }
 
 .socialsContainer img:hover {
@@ -87,6 +88,39 @@
     margin-top: 0px;
 }
 
+@media (max-width: 1350px) {
+    .homeDescription {
+        font-size: 1.3cqw;
+    }
+}
+
+@media (max-width: 870px) {
+    .Home h2 {
+        font-size: 1.8cqw;
+        margin-left: 6%;
+        padding-left: 0%;
+    }
+
+    .homeDescription {
+        font-size: 1.5cqw;
+    }
+
+    .descriptionLeft {
+        width: 100%;
+        margin-left: 6%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .descriptionRight {
+        width: 100%;
+        margin-left: 6%;
+        margin-top: 15px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
 @font-face {
     font-family: 'futura';
     src: local('Futura Book'), url(../../fonts/futura/Futura_Book_font.woff2) format('woff2');
@@ -94,7 +128,7 @@
                               'embedded-opentype', and 'svg' */
 }
 
-@keyframes slideInFromTopHome {
+/* @keyframes slideInFromTopHome {
     0% {
         opacity: 0%;
         transform: translateY(-100%);
@@ -116,4 +150,4 @@
         opacity: 100%;
         transform: translateY(0);
     }
-}
+} */

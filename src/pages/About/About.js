@@ -13,13 +13,7 @@ function About() {
         <div className='introRight'>
           <h1>I'm Jiahan Vinny Li,</h1>
           <p>
-            A Solution Analyst at Deloitte since summer 2022. Mainly focusing on getting staffed in projects related to development, which includes Mobile App development
-            in native or cross-platform, specifically Flutter, and Web Development. With my recent certification on Salesforce Platform Developer I, I was staffed in a
-            Salesforce project, marking my beginnings as a Salesforce Developer.
-          </p>
-          <p>
-            <br />With the rapid advancements on AI and technologies as a whole. I am looking forward to learning and getting more certifications whether it's in Salesforce,
-            AI or anything related to development.
+            Since joining Deloitte as a Solution Analyst in Summer 2022, I have been engaged in developing and delivering solutions primarily within mobile (Native & Flutter) and web development domains. Capitalizing on my certification as a Salesforce Platform Developer I, I have successfully applied this expertise to contribute to Salesforce development projects, demonstrating adaptability and expanding my technical delivery scope.
           </p>
         </div>
       </div>
@@ -73,6 +67,13 @@ function About() {
           <p style={{ marginLeft: '3.5cqh' }}>Python</p>
           <p style={{ marginRight: '3.5cqh' }}>1★</p>
         </div>
+      </div>
+      <div className='moreAbout'>
+        <h1>A little more about me...</h1>
+        <p>
+          With the rapid advancements on AI and technologies as a whole. I am looking forward to learning and getting more certifications whether it's in Salesforce,
+          AI or anything related to development.
+        </p>
       </div>
     </div>
   );

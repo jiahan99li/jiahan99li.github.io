@@ -1,12 +1,4 @@
-nav {
-    /* position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: 1s ease-in 0s 1 slideInFromTop;
-}
+nav {}
 
 .active {}
 
@@ -14,13 +6,17 @@ nav ul {
     background-color: rgba(255, 255, 255, 0.103);
     border-radius: 30px;
     overflow: hidden;
+    text-align: center;
+    padding-left: 0 !important;
+    margin: 0 auto;
 }
 
 nav ul li {
-    padding-right: 30px;
-    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block !important;
     list-style: none;
-    margin: 15px 0;
+    margin: 12px 0;
 }
 
 nav ul li .navigation {
@@ -38,7 +34,7 @@ nav ul li .navigation:hover {
     border-radius: 20px;
 }
 
-@keyframes slideInFromTop {
+/* @keyframes slideInFromTop {
     0% {
         transform: translateY(-100%);
     }
@@ -46,4 +42,4 @@ nav ul li .navigation:hover {
     100% {
         transform: translateY(0);
     }
-}
+} */
