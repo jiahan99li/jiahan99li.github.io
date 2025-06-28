@@ -1,6 +1,7 @@
 {
   "name": "githubpageeditable",
   "version": "0.1.0",
+  "homepage": "https://jiahan99li.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
