@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cedf83d8.css",
-    "main.js": "/static/js/main.610f3099.js",
+    "main.css": "/static/css/main.ecfab01d.css",
+    "main.js": "/static/js/main.cc0f5002.js",
     "static/js/453.154a9b1e.chunk.js": "/static/js/453.154a9b1e.chunk.js",
     "static/media/profile.png": "/static/media/profile.45f7191f1267bdbfa1d1.png",
     "static/media/wiss1.png": "/static/media/wiss1.62194b769fbb4dc572c8.png",
@@ -17,12 +17,12 @@
     "static/media/WissLogoIcon.png": "/static/media/WissLogoIcon.d6467b339c316894649f.png",
     "static/media/Futura_Book_font.woff2": "/static/media/Futura_Book_font.9f5526c7044ae1052a4e.woff2",
     "index.html": "/index.html",
-    "main.cedf83d8.css.map": "/static/css/main.cedf83d8.css.map",
-    "main.610f3099.js.map": "/static/js/main.610f3099.js.map",
+    "main.ecfab01d.css.map": "/static/css/main.ecfab01d.css.map",
+    "main.cc0f5002.js.map": "/static/js/main.cc0f5002.js.map",
     "453.154a9b1e.chunk.js.map": "/static/js/453.154a9b1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cedf83d8.css",
-    "static/js/main.610f3099.js"
+    "static/css/main.ecfab01d.css",
+    "static/js/main.cc0f5002.js"
   ]
 }
